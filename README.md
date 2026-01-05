@@ -12,11 +12,15 @@ the primary hardware tested was the E22900M30S (SX126x-based LoRa
 module) and some other E22's. this module is notable in that it 
 allows for a full 1W (30dBm) of broadcast power, whilst most everything
 else in the word limits you to 27 dBm) which allowed me to send
-a message at 500 kHz bandwidth around ~30km (!!) in New Jersey with the antenna
-on top of my roof. take care to know that this is the absolute maximum 
+a message at 500 kHz bandwidth around ~25km (!!) in New Jersey with the antenna
+on top of my roof. 
+
+take care to know that this is the absolute maximum 
 allowed on the U.S. ISM bands (and I believe Europe is much more
-restrictive). you can use a max 6 dBi gain antenna (so 36 dB EIRP)
-before someone probably comes and knocks on your door. and use FHSS!
+restrictive). I think you can use a max 6 dBi gain antenna (so 36 dB EIRP)
+before someone probably comes and knocks on your door. I used a 3 dBi. FHSS
+is important too! and thoroughly research the legality of your LoRa broadcasts
+for your locality before transmitting.
 
 # other information
 
@@ -27,3 +31,4 @@ and is preserved as a reference and because I didn't want to throw it away.
 # the magnificent test setup
 
 ![Early bring-up setup](./img/bodge_central.jpg)
+
